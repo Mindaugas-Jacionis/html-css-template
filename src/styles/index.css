@@ -1,0 +1,43 @@
+@import "reset.css";
+
+@font-face {
+  font-family: Poppins;
+  src: url("/fonts/Poppins/Poppins-Regular.ttf");
+  font-weight: 400;
+}
+
+html body * {
+  font-family: Poppins, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  background: goldenrod;
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-parrent {
+  flex: 1;
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.paragraph {
+  /* align-self: flex-start; */
+  box-sizing: border-box;
+  min-width: 320px;
+  max-width: 500px;
+  background: contain no-repeat url("images/angry-ird.jpeg");
+  padding: 50px 100px;
+  border: 2px rebeccapurple solid;
+}
